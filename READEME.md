@@ -2,7 +2,7 @@
  
 ## What's this ?
 
-> utils is personal utils for personal project , and is free and open source
+> <b>utils</b> is personal golang code utils for personal project 
 
 ## How to use ?
  
@@ -13,13 +13,13 @@
 
 ##  About api ?
 
->### Map
->``` Golang
+> ### Map
+> ``` Golang
 > MapToArr
->```
+> ```
 >
->### Array
->``` Golang
+> ### Array
+> ``` Golang
 > RemoveDupEl
 >
 > RemoveDupElKeepOrder
@@ -31,22 +31,22 @@
 > FindFirstElIndexInArr
 >
 > CountElIndexInArr
->```
+> ```
 >
->### Time
->``` Golang
+> ### Time
+> ``` Golang
 > ConvertTimeToStrDefault
 >
 > ConvertTimeToStr
->```
+> ```
 >
->### Struct
->``` Golang
+> ### Struct
+> ``` Golang
 > Dump
->```
+> ```
 
 ## Other
 
-> if you find any bugs or have problem , please concat 2633218009@qq.com . Thanks !
+> if you find any bugs , have any problems or have any advices , please concat 2633218009@qq.com . Thanks !
 > 
 > Peace !
