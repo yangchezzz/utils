@@ -1,6 +1,6 @@
 package utils
 
-func MapToArr[T int8 | int16 | int | int32 | int64 | float32 | float64 | string | bool | byte](elMap map[T]bool) []T {
+func MapToArr[T E](elMap map[T]bool) []T {
 	if len(elMap) == 0 {
 		return []T{}
 	}
@@ -11,7 +11,7 @@ func MapToArr[T int8 | int16 | int | int32 | int64 | float32 | float64 | string 
 	return res
 }
 
-func ArrToMap[T int8 | int16 | int | int32 | int64 | float32 | float64 | string | bool | byte](elArr []T) map[T]int64 {
+func ArrToMap[T E](elArr []T) map[T]int64 {
 	if len(elArr) == 0 {
 		return map[T]int64{}
 	}
